@@ -1,0 +1,61 @@
+.paralax {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.paralaxItem {
+    background-image: url(../../../assets/img/bank.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.paralaxItemContainer {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    height: 500px;
+}
+
+.paralaxItemContainerItem {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.paralaxItemNumber {
+    font-size: 50px;
+    font-weight: 600;
+    color: #7CC4E3;
+}
+
+.paralaxItemText {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+.paralaxItemBg {
+    height: 500px;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.90));
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: content-box;
+    text-align: center;
+    padding-top: 100px;
+
+}

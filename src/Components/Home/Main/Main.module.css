@@ -1,0 +1,48 @@
+* {
+    border: none;
+
+}
+
+
+.main {
+    position: relative;
+}
+
+.mainPhotoItem {
+    
+}
+
+
+/* .mainPhoto {
+    background-image: url(../../../assets/img/test.jpg);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 100vh;
+    position: relative;
+    border: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+} */
+
+.content {
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.content span {
+    color: #FC5C65;
+}
+
+.contentTitle {
+    font-size: 30px;
+    color: black;
+}
+
+.contentSubTitle {
+    color: black;
+    font-size: 30px;
+}

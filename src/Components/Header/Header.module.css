@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-image: linear-gradient(110deg, #7CC4E3, 20%, #323946);
+    /* background-color: #323946; */
+    height: 80px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.menu {
+    list-style-type: none;
+
+}
+
+li {
+    display: inline-block;
+    padding-right: 80px;
+}
+
+a {
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
