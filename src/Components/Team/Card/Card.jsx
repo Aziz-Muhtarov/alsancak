@@ -12,8 +12,6 @@ import photo2 from '../../../assets/img/img team/photo2.jpg';
 import photo3 from '../../../assets/img/img team/photo3.jpg';
 import photo4 from '../../../assets/img/img team/photo4.jpg';
 import photo5 from '../../../assets/img/img team/photo5.jpg';
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
 
 
 const Card = () => {

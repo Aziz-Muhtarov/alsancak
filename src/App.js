@@ -3,8 +3,6 @@ import Main from './Components/Home/Home';
 import Service from './Components/Service/Service';
 import Team from './Components/Team/Team';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
 
 
 function App() {
