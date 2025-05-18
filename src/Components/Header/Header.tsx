@@ -1,13 +1,12 @@
-import React from "react";
-import styles from './Header.module.css';
-import logoImage from '../../assets/img/logo.png';
-import { menu } from './menu.js';
+import styles from './styles.module.scss'
+import mainLogo from '@/img/logo/logo.png';
+import { menu } from './menu';
 
 const Header = () => {
     return (
         <div className={styles.header}>
             <div className={styles.logo}>
-                <img src={logoImage} alt="/" height='40' />
+                <img src={mainLogo} alt="/" height='40' />
             </div>
             <div className={styles.wrapper}>
                 <ul className={styles.menu}>
